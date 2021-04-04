@@ -1,17 +1,11 @@
 package BuilderUtil;
 
-import Person.Seller;
-import Person.User;
-import builder.Item;
 import builder.Product;
 import constants.ProductCategory;
-import utils.Customer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Builder  {

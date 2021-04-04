@@ -2,6 +2,7 @@ package builder;
 
 public class Item {
     Product product;
+    int quantity;
 
     public Product getProduct() {
         return product;
@@ -19,5 +20,5 @@ public class Item {
         this.quantity = quantity;
     }
 
-    int quantity;
+
 }

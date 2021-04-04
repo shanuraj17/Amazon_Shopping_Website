@@ -1,12 +1,11 @@
 package utils;
 
 import builder.Product;
-import constants.ProductCategory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Customer {
+public class Search {
     List<Product> listOfProduct = new ArrayList<Product>();
 
     public void addItems(Product product){
@@ -33,5 +32,4 @@ public class Customer {
         }
         return listOfProduct1;
     }
-
 }

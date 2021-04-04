@@ -7,7 +7,23 @@ import java.util.List;
 
 public class Product {
     int productID;
-
+    String productName;
+    String productDescription;
+    Double productCost;
+    ProductCategory productCategory;
+    String seller;
+    List<ProductReview> reviews;
+    
+    public Product(int productID, String productName, String productDescription, Double productCost, ProductCategory productCategory, String seller, List<ProductReview> reviews) {
+        this.productID = productID;
+        this.productName = productName;
+        this.productDescription = productDescription;
+        this.productCost = productCost;
+        this.productCategory = productCategory;
+        this.seller = seller;
+        this.reviews = reviews;
+    }
+    
     public int getProductID() {
         return productID;
     }
@@ -64,10 +80,5 @@ public class Product {
         this.reviews = reviews;
     }
 
-    String productName;
-    String productDescription;
-    Double productCost;
-    ProductCategory productCategory;
-    String seller;
-    List<ProductReview> reviews;
+   
 }

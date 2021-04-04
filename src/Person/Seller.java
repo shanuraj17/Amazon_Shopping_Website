@@ -1,6 +1,8 @@
 package Person;
 
 import builder.Product;
+import constants.OrderStatus;
+import utils.ShoppingCart;
 
 import java.util.List;
 
@@ -16,6 +18,11 @@ public class Seller extends User{
     }
 
     public void addProduct(Product product){
+        this.product.add(product);
+    }
 
+    @Override
+    public OrderStatus placeOrder(ShoppingCart cart) {
+        return null;
     }
 }
